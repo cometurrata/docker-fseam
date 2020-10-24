@@ -1,7 +1,7 @@
 from frolvlad/alpine-python3
 
 # Install cmake
-RUN apk --no-cache add cmake libressl-dev make gcc g++ libc-dev git linux-headers
+RUN apk --no-cache add cmake libressl-dev make gcc g++ libc-dev git linux-headers bash
 
 # Required for FSEAM
 RUN pip3 install ply
