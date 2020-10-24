@@ -2,11 +2,11 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/cometurrata/fseam.svg?style=flat-square)](https://hub.docker.com/r/cometurrata/fseam/)
 
 
-Python 3.7 Docker image
+Fseam Docker image
 =======================
 
 This image is based on Alpine Linux image, which is only a 5MB image, and contains
-[Python 3.7](https://www.python.org/).
+[Fseam](https://github.com/FreeYourSoul/FSeam).
 
 Download size of this image is only:
 
