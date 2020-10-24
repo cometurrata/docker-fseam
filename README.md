@@ -16,4 +16,19 @@ Download size of this image is only:
 Usage Example
 -------------
 
-// To be added
+```bash
+# Get Fseam tutorial
+git clone https://github.com/cometurrata/FSeam_Tutorial;
+cd FSeam_tutorial;
+
+# Run the docker:
+docker run --rm -d -t --privileged --name fseam  -v `pwd`:/app  cometurrata/fseam:latest bash;
+
+# Open an interactive terminal into the running docker
+docker exec -it -w /app fseam bash;
+
+# Just run the commands like you would on your own bash
+cmake -DFSEAM_USE_CATCH2=ON ./ ;
+make all -j$(nproc);
+make test;
+```
