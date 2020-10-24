@@ -17,5 +17,3 @@ Usage Example
 -------------
 
 // To be added
-
-NOTE: `pip`/`pip3` is also available in this image.
